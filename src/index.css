@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.component-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: yellow;
+}
