@@ -41,7 +41,7 @@ function App() {
               <Car key = {index} car = {car} initiateWith = {startsWith} />
               </>)
             })
-          }</> : <></>
+          }</> : <>Data has been Loading...</>
         }
       {/* {
         cars.length !== 0 ? <>{
